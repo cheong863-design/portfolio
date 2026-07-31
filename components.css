@@ -1,0 +1,241 @@
+/* =====================================================
+   BUTTONS
+===================================================== */
+
+.btn{
+    font-weight: var(--font-medium);
+    border-radius: var(--radius-pill);
+    padding: .75rem 1.75rem;
+    transition: var(--transition);
+}
+
+.btn-warning{
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.btn-warning:hover{
+    background: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+.btn-outline-dark:hover{
+    transform: translateY(-2px);
+}
+
+/* =====================================================
+   SECTION TITLE
+===================================================== */
+
+.section-subtitle{
+
+    display: inline-block;
+
+    color: var(--primary-color);
+
+    font-size: .95rem;
+
+    font-weight: var(--font-semibold);
+
+    letter-spacing: 2px;
+
+    text-transform: uppercase;
+
+    margin-bottom: .75rem;
+
+}
+
+.section-title{
+
+    font-size: var(--section-title-size);
+
+    font-weight: var(--font-bold);
+
+    color: var(--text-color);
+
+    margin-bottom: 1rem;
+
+}
+
+.section-description{
+
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    color: var(--text-light);
+
+    line-height: 1.8;
+
+}
+
+/* =====================================================
+   CARDS
+===================================================== */
+
+.skill-card,
+.project-card,
+.education-card{
+
+    background: #fff;
+
+    border: 1px solid var(--border-color);
+
+    border-radius: var(--radius-lg);
+
+    padding: 2rem;
+
+    height: 100%;
+
+    transition: var(--transition);
+
+    box-shadow: var(--shadow-sm);
+
+}
+
+.skill-card:hover,
+.project-card:hover,
+.education-card:hover{
+
+    transform: translateY(-8px);
+
+    box-shadow: var(--shadow-md);
+
+}
+
+/* =====================================================
+   ICONS
+===================================================== */
+
+.skill-icon{
+
+    font-size: 2.5rem;
+
+    color: var(--primary-color);
+
+    margin-bottom: 1rem;
+
+}
+
+.contact-item i{
+
+    font-size: 1.5rem;
+
+    color: var(--primary-color);
+
+    margin-right: 1rem;
+
+}
+
+.social-links{
+
+    display: flex;
+
+    gap: 1rem;
+
+}
+
+.social-links a{
+
+    width: 48px;
+
+    height: 48px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-decoration: none;
+
+    color: var(--text-color);
+
+    background: var(--section-bg);
+
+    border-radius: 50%;
+
+    transition: var(--transition);
+
+}
+
+.social-links a:hover{
+
+    background: var(--primary-color);
+
+    color: #fff;
+
+}
+
+/* =====================================================
+   BADGES
+===================================================== */
+
+.project-tags{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: .5rem;
+
+}
+
+.project-tags .badge{
+
+    font-weight: var(--font-medium);
+
+    padding: .6rem .9rem;
+
+    border-radius: var(--radius-pill);
+
+}
+
+/* =====================================================
+   FORM
+===================================================== */
+
+.form-control{
+
+    border-radius: var(--radius-md);
+
+    padding: .9rem 1rem;
+
+    border: 1px solid var(--border-color);
+
+    box-shadow: none;
+
+}
+
+.form-control:focus{
+
+    border-color: var(--primary-color);
+
+    box-shadow: 0 0 0 .2rem rgba(255,193,7,.25);
+
+}
+
+/* =====================================================
+   IMAGE
+===================================================== */
+
+.project-image,
+.hero-image,
+.about-image{
+
+    border-radius: var(--radius-lg);
+
+    overflow: hidden;
+
+}
+
+/* =====================================================
+   DIVIDER
+===================================================== */
+
+hr{
+
+    border-color: var(--border-color);
+
+}

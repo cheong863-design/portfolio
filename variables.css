@@ -1,0 +1,95 @@
+/* ========================================
+   Google Font
+======================================== */
+
+:root {
+
+    /* ========================================
+       Brand Colors
+    ========================================= */
+
+    --primary-color: #FFC107;
+    --primary-hover: #E0A800;
+
+    --secondary-color: #212529;
+
+    --background-color: #FFFFFF;
+    --section-bg: #F8F9FA;
+
+    --text-color: #212529;
+    --text-light: #6C757D;
+
+    --border-color: #E9ECEF;
+
+    --success-color: #198754;
+    --danger-color: #DC3545;
+
+    /* ========================================
+       Typography
+    ========================================= */
+
+    --font-family: "Poppins", sans-serif;
+
+    --hero-title-size: 3.5rem;
+    --section-title-size: 2.5rem;
+    --heading-size: 1.75rem;
+
+    --body-size: 1rem;
+    --small-size: .95rem;
+
+    --font-light: 300;
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700;
+
+    /* ========================================
+       Spacing
+    ========================================= */
+
+    --space-xs: .5rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+    --space-xxl: 5rem;
+
+    /* ========================================
+       Border Radius
+    ========================================= */
+
+    --radius-sm: .5rem;
+    --radius-md: .75rem;
+    --radius-lg: 1rem;
+    --radius-xl: 2rem;
+    --radius-pill: 50rem;
+
+    /* ========================================
+       Shadow
+    ========================================= */
+
+    --shadow-sm:
+        0 2px 10px rgba(0,0,0,.05);
+
+    --shadow-md:
+        0 8px 25px rgba(0,0,0,.08);
+
+    --shadow-lg:
+        0 15px 40px rgba(0,0,0,.12);
+
+    /* ========================================
+       Transition
+    ========================================= */
+
+    --transition:
+        all .3s ease-in-out;
+
+    /* ========================================
+       Layout
+    ========================================= */
+
+    --container-width: 1140px;
+
+    --header-height: 80px;
+
+}
